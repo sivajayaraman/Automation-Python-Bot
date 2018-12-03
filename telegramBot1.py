@@ -157,7 +157,7 @@ def echo(bot,update):
 				meaning=meaning+str(i)+'.'+row.text+'\n'
 				i=i+1
 			bot.send_message(chat_id=update.message.chat_id, text=meaning)				
-updater=Updater(token = '604449506:AAGdN1Sco2yj5hW7DM3dEmmP5IJKHP_y_lQ')
+updater=Updater(token = 'token')
 dispatcher=updater.dispatcher
 start_handler = CommandHandler('start', start)
 dispatcher.add_handler(start_handler)
