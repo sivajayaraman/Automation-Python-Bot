@@ -9,7 +9,7 @@ import csv
 update_id = None
 def main():
     global update_id
-    bot = telegram.Bot('604449506:AAGdN1Sco2yj5hW7DM3dEmmP5IJKHP_y_lQ')
+    bot = telegram.Bot('token')
     try:
         update_id = bot.get_updates()[0].update_id
     except IndexError:
